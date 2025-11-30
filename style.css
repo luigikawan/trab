@@ -1,0 +1,72 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef2f7;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: #0a5ad6;
+      font-size: 2.6rem;
+      margin: 0;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 8px;
+      font-size: 1.3rem;
+    }
+
+    .container {
+      max-width: 750px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .titulo-secao {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #1a1a1a;
+    }
+
+    .pedido {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+    }
+
+    .pendente {
+      background: #ffdddd;
+      border-left: 6px solid #e60000;
+    }
+
+    .pronto {
+      background: #ddffdd;
+      border-left: 6px solid #00b300;
+    }
+
+    .status {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .descricao {
+      margin-bottom: 25px;
+      line-height: 1.5;
+      font-size: 1rem;
+      color: #444;
+    }
